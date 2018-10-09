@@ -1,0 +1,228 @@
+body{
+    margin-bottom: 0;
+}
+
+main {
+    background-color: #f2fefc;
+    float: left;
+    width: 42%;
+    margin-left: 25%;
+    padding: 50px;
+}
+
+.sobre-mim{
+    font-size: 60px;
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    font-family: Roboto, "Open Sans", sans-serif;
+    padding: 20px;
+    margin: -8px -8px 0 -8px;
+    text-transform: uppercase;
+}
+
+.sobre-mim:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.ajuste-links{
+    margin-right: 30px;
+}
+
+h1, h2 {
+    font-family: "Open Sans Condensed", "Arial", sans-serif;
+    clear: both;
+}
+
+aside a{
+    color: white;
+    text-decoration: none;
+    /*margin-right: 30px;*/
+    /*background-color: transparent;*/
+    text-transform: uppercase;
+}
+
+p{
+    text-align: justify;
+}
+
+strong{
+    font-weight: bold;
+}
+
+aside{
+    background-color: #000000;
+    text-align: center;
+    float: right;
+    clear: right;
+    position: relative;
+    box-sizing: border-box;
+    /*border-left: 10px solid #bebac9;*/
+    /*border-bottom: 10px solid #bebac9;*/
+    top: 103px;
+    width: 300px;
+    right: -8px;
+}
+
+aside ul li{
+    list-style-type: none;
+}
+
+aside a{
+    font-family: "Open Sans Condensed", "Arial", sans-serif;
+    font-weight: bold;
+    list-style-type: none;
+    line-height: 2.125em;
+    color: red;
+}
+
+/*LISTA DE LINKS*/
+aside a:hover{
+    color: #bebac9;
+}
+
+.icones-rede-social li{
+    display: inline-block;
+
+}
+
+.icones-rede-social a{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-indent: -9999px; /*Para fazer o nome sumir*/
+}
+
+.icones-rede-social a:hover{
+    background-color: red;
+    border-radius: 60px;
+}
+
+.github{
+    background-image: url('../images/github.png');
+}
+
+.twitter{
+    background-image: url('../images/twitter.png');
+}
+
+.linkedin{
+    background-image: url('../images/linkedin.png');
+}
+
+.icones-rede-social-footer a{
+    width: 40px;
+    height: 40px;
+    bottom: 35px;
+    float: right;
+    position: relative;
+    display: inline-block;
+    text-indent: -9999px;
+    border-radius: 50px;
+}
+
+.icones-rede-social-footer{
+    list-style-type: none;
+    bottom: 15px;
+}
+
+.social-rodape{
+    display: -webkit-box;
+    list-style-type: none;
+    margin: 60px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 30px;
+    margin: -8px -8px 0 -8px;
+    position: relative;
+    top: 10px;
+    clear: both;
+    text-transform: uppercase;
+}
+
+footer a:hover{
+    background-color: red;
+    text-transform: lowercase;
+}
+
+div{
+    background-color: #000000;
+    text-align: center;
+    padding: 5px;
+}
+
+.william{
+    float: right;
+    margin: 0 25px;
+}
+
+.jaba{
+    float: left;
+    margin: 0 25px 0 0;
+}
+
+cite{
+    font-style: italic;
+    float: right;
+}
+
+.meu-nome-menu{
+    color: white;
+    text-transform: uppercase;
+}
+
+.img-macaquinho{
+    box-sizing: border-box;
+    float: right;
+    width: 300px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+blockquote{
+    background: #D3DDDA;
+    padding: 16px;
+    border: 10px solid #C2CCCA;
+    width: 250px;
+    box-sizing: border-box;
+
+}
+
+/*Dropdown*/
+
+span{
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+span:hover{
+    background-color: yellow;
+    color: red;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(255,255,255,0.2);
+    z-index: 1;
+}
+
+.lista-dropdown{
+    margin-right: 35px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
